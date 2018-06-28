@@ -191,9 +191,33 @@ img{
     display: block;
   }
 
-  p{
-    font-size: 2.2rem;
+  h2{
+    font-size: 1.8rem;
+    padding-bottom: 0;
   }
+
+  p{
+    font-size: 1.6rem;
+  }
+
+  .play button{
+        min-width: 350px;
+        max-height: 30px;
+        min-height: 10px;
+    }
+
+  .register button{
+          min-width: 350px;
+          min-height: 10px;
+          max-height: 30px;
+    }
+
+  .almost-there button{
+            min-width: 350px;
+            min-height: 10px;
+            max-height: 30px;
+    }
+
 
 }
 
@@ -216,6 +240,7 @@ img{
   }
 
 .play button{
+  font-size: 100%;
       min-width: 50px;
       max-height: 30px;
       min-height: 10px;
@@ -225,12 +250,14 @@ img{
         min-width: 50px;
         min-height: 10px;
         max-height: 30px;
+        font-size: 100%;
   }
 
 .almost-there button{
           min-width: 50px;
           min-height: 10px;
           max-height: 30px;
+          font-size: 100%;
   }
 
   img{
