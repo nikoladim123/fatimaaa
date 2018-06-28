@@ -203,3 +203,50 @@ img{
     display: block;
   }
 }
+
+
+@media screen and (max-width:760px) {
+
+  h2{
+    font-size: 1rem;
+  }
+
+  p{
+    font-size: 0.7rem;
+  }
+
+.play button{
+      min-width: 50px;
+      max-height: 30px;
+      min-height: 10px;
+  }
+
+.register button{
+        min-width: 50px;
+        min-height: 10px;
+        max-height: 30px;
+  }
+
+.almost-there button{
+          min-width: 50px;
+          min-height: 10px;
+          max-height: 30px;
+  }
+
+  img{
+    position: relative;
+    max-width: 30px;
+    max-height: 30px;
+  }
+
+  .social-media a{
+    margin: 0;
+  }
+
+  .reg-log{
+    position: absolute;
+    right: 40vw;
+    top: 2vh;
+  }
+
+}
