@@ -1,7 +1,13 @@
+
+
 body{
-  margin: 0 0;
+  max-width: 100vw;
+  margin: 10px;
+  box-shadow: 2px 2px 2px black, 8px 8px 8px gray, 5px 5px 5px white;
+ border-radius: 5px;
   padding: 0 0;
   font-family: arial;
+
 }
 
 button{
@@ -61,20 +67,29 @@ p{
   animation: pulse 6s linear 1.5s infinite normal;
 }
 
+.fucking-circle{
+  border-radius: 50%;
+  background-image: url('imgs/circle-one.png');
+  position: absolute;
+  width: 15vw;
+  height: 15vw;
+  bottom: 2vw;
+  right: 2vw;
+  background-size: 100% 100%;
+}
+
 .cover{
-  top: 0;
-  background-image: url('imgs/cover-para.png');
+  background-image: url('imgs/cvr.png');
   width: 100%;
   height: 90vh;
   background-size: 100% 100%;
-  position: fixed;
-  z-index: 0;
+  position: relative;
 }
 
 .bod{
+  width: 100%;
   margin-top: -20px;
   position: relative;
-  top: 90vh;
   background-image: url('imgs/body.png');
   height: 190vw;
   background-size: 100% 100%;
@@ -147,10 +162,20 @@ img{
     height: 45vh;
   }
 
+  .fucking-circle{
+    border-radius: 50%;
+    background-image: url('imgs/circle-one.png');
+    position: absolute;
+    width: 12vh;
+    height: 12vh;
+    bottom: 2vw;
+    right: 2vw;
+    background-size: 100% 100%;
+  }
+
   .bod{
     margin-top:0;
     position: relative;
-    top: 45vh;
     background-image: url('imgs/body.png');
     height: 190vw;
     background-size: 100% 100%;
