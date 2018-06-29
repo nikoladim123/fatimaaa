@@ -106,21 +106,21 @@ p{
   position: absolute;
   top: 6%;
   left:35vw;
-  margin-right:10vw;
+  margin-right:20vw;
 }
 
 .play{
   position: absolute;
   top: 31%;
   left:35vw;
-  margin-right:10vw;
+  margin-right:20vw;
 }
 
 .almost-there{
   position: absolute;
   top: 55%;
   left:35vw;
-  margin-right:10vw;
+  margin-right:20vw;
 }
 
 .social-media{
@@ -190,18 +190,18 @@ img{
   .play button{
         min-width: 350px;
         max-height: 30px;
-        min-height: 10px;
+        min-height: 12px;
     }
 
   .register button{
           min-width: 350px;
-          min-height: 10px;
+          min-height: 12px;
           max-height: 30px;
     }
 
   .almost-there button{
             min-width: 350px;
-            min-height: 10px;
+            min-height: 12px;
             max-height: 30px;
     }
 
@@ -235,21 +235,33 @@ img{
     font-size: 100%;
         min-width: 150px;
         max-height: 30px;
-        min-height: 8px;
+        min-height: 10px;
     }
 
   .register button{
           min-width: 150px;
-          min-height: 8px;
+          min-height: 10px;
           max-height: 30px;
           font-size: 100%;
     }
 
   .almost-there button{
             min-width: 150px;
-            min-height: 8px;
+            min-height: 10px;
             max-height: 30px;
             font-size: 100%;
+    }
+
+    .play{
+      margin-right: 10vh;
+    }
+
+    .register{
+      margin-right: 10vh;
+    }
+
+    .almost-there{
+      margin-right: 10vh;
     }
 
 
