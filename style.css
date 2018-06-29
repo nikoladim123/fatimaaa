@@ -15,7 +15,7 @@ button{
   border-radius: 7px;
   font-size: 150%;
     min-width: 6vw;
-    min-height: 5vh;
+    min-height: 6vh;
     color: white;
 }
 
@@ -31,40 +31,24 @@ p{
   display: none;
 }
 
-@keyframes pulse {
-    0% {
-      transform: scale(1) rotate(0deg);
-    }
-    25% {
-      transform: scale(1.1) rotate(-1deg);
-    }
-    50% {
-      transform: scale(1.1) rotate(1deg);
-    }
-    100% {
-      transform: scale(1) rotate(0deg);
-    }
-}
 
 .play button{
   background: rgb(112, 48, 160);
   border-color: rgb(127, 177, 124);
   min-width: 350px;
-  animation: pulse 6s linear 1.5s infinite normal;
 }
 
 .register button{
   background: rgb(255, 192, 0);
   border-color: rgb(127, 177, 124);
   min-width: 350px;
-  animation: pulse 6s linear 1.5s infinite normal;
+  min-height: 50px;
 }
 
 .almost-there button{
   background: rgb(0, 112, 192);
   border-color: rgb(127, 177, 124);
   min-width: 350px;
-  animation: pulse 6s linear 1.5s infinite normal;
 }
 
 .fucking-circle{
@@ -122,18 +106,21 @@ p{
   position: absolute;
   top: 6%;
   left:35vw;
+  margin-right:10vw;
 }
 
 .play{
   position: absolute;
   top: 31%;
   left:35vw;
+  margin-right:10vw;
 }
 
 .almost-there{
   position: absolute;
   top: 55%;
   left:35vw;
+  margin-right:10vw;
 }
 
 .social-media{
