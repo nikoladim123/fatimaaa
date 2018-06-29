@@ -228,11 +228,44 @@ img{
   }
 }
 
-
-@media screen and (max-width:760px) {
+@media screen and (max-width:760px){
 
   h2{
-    font-size: 1rem;
+    font-size: 1.3rem;
+  }
+
+  p{
+    font-size: 0.9rem;
+  }
+
+  .play button{
+    font-size: 100%;
+        min-width: 150px;
+        max-height: 30px;
+        min-height: 8px;
+    }
+
+  .register button{
+          min-width: 150px;
+          min-height: 8px;
+          max-height: 30px;
+          font-size: 100%;
+    }
+
+  .almost-there button{
+            min-width: 150px;
+            min-height: 8px;
+            max-height: 30px;
+            font-size: 100%;
+    }
+
+}
+
+
+@media screen and (max-width:550px) {
+
+  h2{
+    font-size: 0.9rem;
   }
 
   p{
@@ -241,20 +274,20 @@ img{
 
 .play button{
   font-size: 100%;
-      min-width: 50px;
+      min-width: 150px;
       max-height: 30px;
-      min-height: 10px;
+      min-height: 8px;
   }
 
 .register button{
-        min-width: 50px;
+        min-width: 150px;
         min-height: 10px;
         max-height: 30px;
         font-size: 100%;
   }
 
 .almost-there button{
-          min-width: 50px;
+          min-width: 150px;
           min-height: 10px;
           max-height: 30px;
           font-size: 100%;
