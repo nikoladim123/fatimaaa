@@ -15,7 +15,7 @@ button{
   border-radius: 7px;
   font-size: 150%;
     min-width: 6vw;
-    min-height: 6vh;
+    min-height: 7vh;
     color: white;
 }
 
@@ -35,20 +35,22 @@ p{
 .play button{
   background: rgb(112, 48, 160);
   border-color: rgb(127, 177, 124);
-  min-width: 350px;
+  min-width: 30vw;
+  min-height: 70px;
 }
 
 .register button{
   background: rgb(255, 192, 0);
   border-color: rgb(127, 177, 124);
-  min-width: 350px;
-  min-height: 50px;
+  min-width: 30vw;
+  min-height: 70px;
 }
 
 .almost-there button{
   background: rgb(0, 112, 192);
   border-color: rgb(127, 177, 124);
-  min-width: 350px;
+  min-width: 30vw;
+  min-height: 70px;
 }
 
 .fucking-circle{
@@ -179,30 +181,30 @@ img{
   }
 
   h2{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     padding-bottom: 0;
   }
 
   p{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .play button{
         min-width: 350px;
-        max-height: 30px;
+        max-height: 40px;
         min-height: 12px;
     }
 
   .register button{
           min-width: 350px;
           min-height: 12px;
-          max-height: 30px;
+          max-height: 40px;
     }
 
   .almost-there button{
             min-width: 350px;
             min-height: 12px;
-            max-height: 30px;
+            max-height: 40px;
     }
 
 
@@ -219,9 +221,18 @@ img{
     margin: 10px;
   }
 
+  h2{
+    font-size: 1.6rem;
+    padding-bottom: 0;
+  }
+
+  p{
+    font-size: 1.4rem;
+  }
+
 }
 
-@media screen and (max-width:760px){
+@media screen and (max-width:860px){
 
   h2{
     font-size: 1.3rem;
@@ -235,19 +246,19 @@ img{
     font-size: 100%;
         min-width: 150px;
         max-height: 30px;
-        min-height: 10px;
+        min-height: 35px;
     }
 
   .register button{
           min-width: 150px;
-          min-height: 10px;
+          min-height: 35px;
           max-height: 30px;
           font-size: 100%;
     }
 
   .almost-there button{
             min-width: 150px;
-            min-height: 10px;
+            min-height: 35px;
             max-height: 30px;
             font-size: 100%;
     }
@@ -282,19 +293,19 @@ img{
   font-size: 100%;
       min-width: 150px;
       max-height: 30px;
-      min-height: 8px;
+      min-height: 15px;
   }
 
 .register button{
         min-width: 150px;
-        min-height: 10px;
+        min-height: 15px;
         max-height: 30px;
         font-size: 100%;
   }
 
 .almost-there button{
           min-width: 150px;
-          min-height: 10px;
+          min-height: 15px;
           max-height: 30px;
           font-size: 100%;
   }
