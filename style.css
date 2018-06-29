@@ -223,9 +223,15 @@ img{
 
 /*media querty for tablet*/
 @media screen and (max-width:1250px) {
+  
   .br{
     display: block;
   }
+
+  .social-media a{
+    margin: 10px;
+  }
+
 }
 
 @media screen and (max-width:760px){
@@ -258,6 +264,7 @@ img{
             max-height: 30px;
             font-size: 100%;
     }
+
 
 }
 
